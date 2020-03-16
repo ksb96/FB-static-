@@ -5,7 +5,7 @@ var newsFeed=[{username:"ritesh",timeline:"i m so tired"},
 	         {username:"roy",timeline:"hey i feeling good"},
 	         {username:"tony", timeline:"I m Iron Man"},
 	          {username:"ultron", timeline:"I dont even know you"}];
-function isUserValid(usrname, password){
+function isUserValid(username, password){
 	for(var i = 0; i< database.length; i++){
 	if(database[i].username === username && database[i].password 	=== password){
 	return true;
